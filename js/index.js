@@ -10,7 +10,7 @@ const darkMode = new DarkMode();
 const urlPages = new UrlPages();
 new ContactCtrl(copyInfos);
 new HomeCtrl(darkMode, urlPages);
-new ProjectsCtrl();
+new ProjectsCtrl(urlPages);
 
 
 const href = window.location.href;

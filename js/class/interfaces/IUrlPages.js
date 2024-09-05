@@ -10,5 +10,15 @@ export class IUrlPages {
     }
 
 
+    boldCurrentPage(page) {
+        throw Error("boldCurrentPage isn't implemented yet");
+    }
 
+    toggleBarsMenu() {
+        throw Error("toggleBarsMenu isn't implemented yet");
+    }
+
+    displayMoreProjects() {
+        throw Error("displayMoreProjects isn't implemented yet");
+    }
 }

@@ -39,9 +39,7 @@ export class HomeCtrl {
     }
 
     toggleBarsMenu() {
-        document.querySelector("nav").style.display="flex";
-        const bars = document.querySelector(".bars_menu");
-        
+        this.urlPages.toggleBarsMenu();
     }
 
 }

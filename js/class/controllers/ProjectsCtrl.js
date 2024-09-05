@@ -1,5 +1,6 @@
 export class ProjectsCtrl {
-    constructor() {
+    constructor(urlPages) {
+        this.urlPages = urlPages;
         this.init();
     }
 
@@ -18,10 +19,7 @@ export class ProjectsCtrl {
     }
 
     displayMoreProjects() {
-        const projects = document.querySelectorAll(".unvisible");
-        projects.forEach((project)=>{
-            project.classList.toggle("undisplayed");
-        });
+     this.urlPages.displayMoreProjects();
     }
 
 
