@@ -1,0 +1,70 @@
+.contact h3 {
+    font-size: 23px;
+    color: black;
+    margin: 17px 13px;
+}
+
+.contact__container_big {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+}
+
+.contact__container__left {
+    width: 50%;
+}
+
+.contact__container__left p {
+    margin-bottom: 15px;
+    line-height: 26px;
+    padding-left: 15px;
+}
+
+.contact__container__left img {
+    width: 200px;
+    margin: 0px 0px 21px 55px;
+}
+
+.contact_container__right {
+    width: 50%;
+}
+
+.contact_container__right img {
+    width: 75%;
+    border-radius: 15px;
+    margin: 56px;
+}
+
+.copied {
+    display: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    color: black;
+}
+
+.showCopied {
+    display: inline-block;
+    animation-name: copied;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes copied {
+    0% {
+        opacity: 0;
+        transform: translateY(0px);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+}

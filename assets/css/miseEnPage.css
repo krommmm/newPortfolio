@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: lucida grande, tahoma, verdana, arial, sans-serif;
+}
+
+.home,
+.skills,
+.projects,
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 1600px;
+    margin: 50px auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

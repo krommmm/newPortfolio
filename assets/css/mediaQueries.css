@@ -1,0 +1,100 @@
+@media screen and (max-width: 800px) {
+    body .header__presentation__prenom {
+        display: none;
+    }
+
+    body .bars_menu {
+        display: inline-block !important;
+    }
+
+    body nav {
+        display: none;
+        width: 100%;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        z-index: 10;
+        background-color: white;
+    }
+
+    body .nav__container {
+        width: 100%;
+    }
+
+    body .home__presentation_name {
+        font-size: 27px;
+    }
+
+    body .home__presentation_job {
+        font-size: 23px;
+    }
+
+    body .home,
+    body .skills,
+    body .projects,
+    body .contact {
+        width: 95%;
+    }
+
+    body .rectangle {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-top: 0px;
+    }
+
+    .home__welcome__presentation {
+        margin: 0px 30px;
+        line-height: 30px;
+        max-width: 100%;
+    }
+
+    .home__presentation {
+        height: 200px;
+    }
+
+    .home .rectangle {
+        padding-bottom: 20px;
+    }
+
+    body .skills__presentation__container__skill__right p {
+        display: none;
+    }
+
+    .skills__presentation__container__skill__left img {
+        margin-right: 0px;
+    }
+
+    body .skills__presentation {
+        margin-bottom: 15px;
+    }
+
+    .skills__explication__text p {
+        width: 86%;
+        max-width: 86%;
+        min-width: 86%;
+    }
+
+    body .skills__explication__text {
+        padding-left: 0px;
+    }
+
+    .projects__presentation__container__project--name {
+        display: none;
+    }
+
+    .projects__presentation__container__project--description {
+        display: none;
+    }
+
+    .projects__presentation__container__project--buttons {
+        flex-direction: column;
+    }
+
+    .showMore {
+        font-size: 12px;
+      }
+
+      .contact__container__left {
+        width: 95%;
+      }
+}

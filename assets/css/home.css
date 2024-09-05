@@ -1,0 +1,75 @@
+main {
+    display: flex;
+    width: 100vw;
+}
+
+
+
+nav {
+    width: 300px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    height: 100vh;
+}
+
+.home__presentation {
+    padding-left: 50px;
+    width: 95%;
+    height: 300px;
+    /* border: 1px solid rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, .1);
+    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, .1); */
+    border-radius: 5px;
+}
+
+/* .home__welcome {
+    width: 95%;
+    height: 300px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, .1);
+    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    margin-top: 50px;
+    color: rgb(84, 90, 97);
+} */
+
+/* MENU  NAV*/
+.nav__container {
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.nav__container__page {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(84, 90, 97);
+    cursor: pointer;
+}
+
+.nav__container__page:hover {
+    background-color: rgb(222, 255, 254);
+}
+
+.nav__container__page i {
+    margin-left: 10px;
+}
+
+.nav__container__page p {
+    margin-left: 10px;
+}
+
+/* WELCOME BOX */
+.home__welcome h2 {
+    font-weight: 600;
+    color: rgba(0, 0, 0, .8);
+    padding: 15px 15px 5px 15px;
+    margin: 15px 20px 30px 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.home__welcome__presentation {
+    margin: 0px 30px;
+    line-height: 30px;
+    max-width: 60%;
+}

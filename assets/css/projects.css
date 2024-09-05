@@ -1,0 +1,78 @@
+.projects__presentation__container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    position:relative;
+    overflow:hidden;
+}
+
+.projects__presentation__container__project {
+    display: flex;
+}
+
+.projects__presentation__container__project--img {
+    margin: 5px;
+}
+
+.projects__presentation__container__project--img img {
+    width: 150px;
+    height: 100px;
+}
+
+.projects__presentation__container__project--technos {
+    display: flex;
+    margin: 15px;
+}
+
+.projects__presentation__container__project--technos img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    margin: 5px;
+}
+
+.projects__presentation__container__project--buttons {
+    margin: 15px;
+    display: flex;
+}
+
+.projects__presentation__container__project--description p {
+    font-size: 13px;
+    width: 500px;
+}
+
+.projects__presentation__container__project {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.projects__presentation__container__project--name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+.projects__presentation__container__project{
+    transition-duration:.5s;
+}
+.projects__presentation__container__project:hover{
+    background-color:rgba(0,0,0,.1);
+}
+
+.showMore{
+    position:absolute;
+    left: 45%;
+    bottom:0px;
+    color:black;
+    cursor:pointer;
+    padding: 15px;
+    opacity:.4;
+}
+.unvisible{
+   
+}
+.undisplayed{
+    display:none;
+}

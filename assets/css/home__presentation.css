@@ -1,0 +1,125 @@
+.home__presentation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.home__presentation__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.home__presentation p {
+    margin-right: 15px;
+}
+
+.home__presentation_name {
+    display: flex;
+    font-size: 45px;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.home__presentation__name__prenom {
+    animation-delay: 0s;
+}
+
+.home__presentation__name__nom {
+    animation-delay: 0.2s;
+}
+
+.home__presentation__name__dev {
+    animation-delay: .5s;
+}
+
+.home__presentation__name__web {
+    animation-delay: .7s;
+}
+
+.home__presentation__name__nom::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    bottom: 4px;
+    left: 24px;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: left;
+    height: 33%;
+    background: linear-gradient(to right bottom, rgb(4, 162, 159), rgb(50, 230, 226));
+    animation-name: underline;
+    animation-duration: 1.6s;
+    animation-delay: 1.3s;
+    animation-timing-function: cubic-bezier(.85, 0, .15, 1);
+    animation-fill-mode: forwards;
+}
+
+.home__presentation img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    animation-name: growUp;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-timing-function: cubic-bezier(.85, 0, .15, 1);
+    animation-fill-mode: forwards;
+    z-index: -2;
+    margin-left: 50px;
+}
+
+
+.jump {
+    animation-name: jump;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    transform: translateY(60px);
+}
+
+.home__presentation_job {
+    display: flex;
+    font-size: 35px;
+    color: grey;
+}
+
+@keyframes growUp {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes underline {
+    0% {
+        transform: scaleX(0)
+    }
+
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+@keyframes jump {
+    0% {
+        opacity: 0;
+        transform: translateY(60px);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

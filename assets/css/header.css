@@ -1,0 +1,85 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.header__end {
+    display: flex;
+    justify-content: center;
+}
+
+.header__presentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.header__presentation:hover {
+    background-color: rgb(222, 255, 254);
+    cursor: pointer;
+}
+
+.header__presentation__prenom {
+    margin-left: 10px;
+    color: rgb(84, 90, 97);
+    font-weight: 600;
+}
+
+.header__presentation__logoChar {
+    background: linear-gradient(to right bottom, rgb(4, 162, 159), rgb(50, 230, 226));
+    color: white;
+    font-weight: 600;
+    padding: 5px 8px;
+    border-radius: 3px;
+}
+
+.header__socialMedias {
+    margin-right: 25px;
+}
+
+.header__socialMedias img {
+    width: 40px;
+    cursor: pointer;
+}
+
+.header__socialMedias img:hover {
+    cursor: pointer;
+    background-color: rgb(222, 255, 254);
+}
+
+.header__me {
+    display: flex;
+    align-items: center;
+}
+
+.header__me .dark {
+    margin-right: 15px;
+}
+
+.header__me img {
+    width: 40px;
+}
+
+.bars_menu {
+    margin-left: 10px;
+    font-size: 26px;
+    color: rgba(0, 0, 0, .8);
+    display: none !important;
+    cursor: pointer;
+}
+
+.cross_menu {
+    margin-left: 10px;
+    font-size: 26px;
+    color: rgba(0, 0, 0, .8);
+}
+
+.bars_menu:hover {
+    cursor: pointer;
+    background-color: rgb(222, 255, 254);
+    /* padding: 5px; */
+}
