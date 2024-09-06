@@ -12,7 +12,7 @@
 }
 
 .contact__container__left {
-    width: 50%;
+    max-width: 500px;
 }
 
 .contact__container__left p {
