@@ -1,3 +1,15 @@
+@media screen and (max-width: 1390px) {
+    .projects__presentation__container__project--description p {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 494px) {
+    .projects__presentation__container__project--name {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 800px) {
     body .header__presentation__prenom {
         display: none;
@@ -78,9 +90,7 @@
         padding-left: 0px;
     }
 
-    .projects__presentation__container__project--name {
-        display: none;
-    }
+
 
     .projects__presentation__container__project--description {
         display: none;
@@ -92,9 +102,9 @@
 
     .showMore {
         font-size: 12px;
-      }
+    }
 
-      .contact__container__left {
+    .contact__container__left {
         width: 95%;
-      }
+    }
 }
