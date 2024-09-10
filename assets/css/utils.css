@@ -20,15 +20,21 @@
 
 .btn {
     padding: 8px;
-    color: white;
-    background-color: rgb(142, 251, 247);
-    color: rgb(1, 72, 71);
+
     font-weight: 600;
     border-radius: 5px;
     margin: 5px;
     display: inline-block;
     cursor: pointer;
-    font-size: 13px;
+    position: relative;
+    border: 1px solid black;
+    font-size: 14px;
+    overflow: hidden;
+    transition-duration: 0.4s;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.3);
+
+    color: black;
+    background-color: rgb(222, 255, 254);
 }
 
 .btn:hover {
