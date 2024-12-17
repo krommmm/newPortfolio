@@ -5,7 +5,7 @@ export class HomeCtrl {
         this.urlPages = urlPages;
         this.init();
     }
-
+ 
     init() {
         this.bindEvents();
         this.darkMode.launchDarkTheme(this.mode);
