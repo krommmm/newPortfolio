@@ -4,6 +4,8 @@
     padding-left: 30px;
     position: relative;
     overflow: hidden;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 .projects__presentation__container__project {
@@ -67,7 +69,7 @@
 }
 
 .showMore {
-    position: absolute;
+ 
     left: 45%;
     bottom: 0px;
     color: black;
@@ -82,7 +84,7 @@
     display: none;
 }
 
-.projects__presentation__container__project--name p{
+.projects__presentation__container__project--name p{ 
     text-align:center;
 }
 

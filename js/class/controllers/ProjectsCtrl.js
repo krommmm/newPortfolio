@@ -4,7 +4,7 @@ export class ProjectsCtrl {
         this.init();
     }
 
-    init() {
+    init() { 
         this.bindEvents();
     }
 
@@ -12,14 +12,15 @@ export class ProjectsCtrl {
         document.addEventListener("click", this.handleClicks.bind(this));
     }
 
-    handleClicks(e) {
-        if (e.target.classList.contains("showMore")) {
-            this.displayMoreProjects();
+    handleClicks(e) { 
+        if (e.target.classList.contains("showMore")) { 
+            this.displayMoreProjects();  
         }
     }
 
     displayMoreProjects() {
      this.urlPages.displayMoreProjects();
+     this.urlPages.toggleShowMore();
     }
 
 

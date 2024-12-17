@@ -3,6 +3,7 @@ import { IUrlPages } from "../interfaces/IUrlPages.js";
 export class UrlPages extends IUrlPages {
     constructor() {
         super();
+        this.boolShowMore = false;
     }
 
     getPageName() {
@@ -33,9 +34,20 @@ export class UrlPages extends IUrlPages {
 
     displayMoreProjects() {
         const projects = document.querySelectorAll(".unvisible");
-        projects.forEach((project)=>{
+        projects.forEach((project) => {
             project.classList.toggle("undisplayed");
         });
+    }
+
+    toggleShowMore() {
+        const showMore = document.querySelector(".showMore");
+        this.boolShowMore = !this.boolShowMore;
+        if (this.boolShowMore) {
+            showMore.textContent = "Moins de projets";
+        } else {
+            showMore.textContent = "Plus de projets";
+        }
+
     }
 
 }
