@@ -122,26 +122,6 @@
   animation: btnAnimation .7s linear infinite;
   }
 
-
-  .showMore2{
-    display:inline-block;
-    border:1px solid black;
-    padding: 5px;
-    cursor: pointer;
-    position:relative;
-    text-transform:uppercase;
-    font-family:sans-serif;
-    padding: 15px 30px;
-    letter-spacing:1px;
-    cursor:pointer;
-    border:none;
-    overflow:hidden;
-    border-radius: 5px;
-  }
-
-  
-  
-  
    @keyframes btnAnimation {
       0% {
         transform: translateX(-100px) rotate(-45deg);

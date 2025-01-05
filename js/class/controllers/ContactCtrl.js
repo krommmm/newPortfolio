@@ -1,6 +1,7 @@
 export class ContactCtrl {
-    constructor(copyInfos) {
+    constructor(copyInfos, debouncer) {
         this.copyInfos = copyInfos;
+        this.debouncer = debouncer;
         this.init();
     }
 
@@ -14,11 +15,16 @@ export class ContactCtrl {
 
     handleClicks(e) {
         if (e.target.classList.contains("email")) {
-            this.getInfo(e);
-            this.displayWhatYouGet(e);
+            this.debouncer.execute(() => {
+                this.getInfo(e);
+                this.displayWhatYouGet(e);
+            });
+
         } else if (e.target.classList.contains("phoneNumber")) {
-            this.getInfo(e);
-            this.displayWhatYouGet(e);
+            this.debouncer.execute(() => {
+                this.getInfo(e);
+                this.displayWhatYouGet(e);
+            });
         }
     }
 
@@ -31,5 +37,6 @@ export class ContactCtrl {
         const info = this.copyInfos.getInfo(e);
         this.copyInfos.displayCopied();
     }
+
 
 }

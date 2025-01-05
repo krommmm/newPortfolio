@@ -58,6 +58,7 @@
 
 
 .dark {
+    cursor:pointer;
     width: 50px;
     height: 25px;
     border-radius: 25px;

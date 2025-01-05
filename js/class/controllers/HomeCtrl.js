@@ -17,7 +17,7 @@ export class HomeCtrl {
     }
 
     handleClicks(e) {
-        if (e.target.classList.contains("darkMode")) {  
+        if (e.target.classList.contains("darkMode") || e.target.classList.contains("dark")) {  
             this.darkTheme();
         } else if (e.target.classList.contains("bars_menu")) {
             this.toggleBarsMenu();
