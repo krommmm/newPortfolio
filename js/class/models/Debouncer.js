@@ -1,12 +1,12 @@
 export class Debouncer {
-    constructor(timeout) {
-        this.timeout = timeout; 
+    constructor(delay) {
+        this.delay = delay; 
         this.timer = null;
     }
 
     execute(callback, ...args) {
         clearTimeout(this.timer);
-        this.timer = setTimeout(() => callback(...args), this.timeout);
+        this.timer = setTimeout(() => callback(...args), this.delay);
     }
 }
 
