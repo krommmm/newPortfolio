@@ -70,7 +70,7 @@
 
 .showMore {
     background: linear-gradient(to right bottom, rgb(4, 162, 159), rgb(50, 230, 226));
-    left: 45%;
+
     bottom: 0px;
     color: black;
     cursor: pointer;
@@ -104,7 +104,11 @@
     overflow:hidden;
     border-radius: 5px;
   }
-
+.show_large{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
 
   .showMore:before{
     content:"";
