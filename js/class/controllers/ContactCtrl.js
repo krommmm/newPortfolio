@@ -16,7 +16,7 @@ export class ContactCtrl {
     handleClicks(e) {
         if (e.target.classList.contains("email")) {
             this.debouncer.execute(() => {
-                this.getInfo(e);
+                this.getInfo(e); 
                 this.displayWhatYouGet(e);
             });
 
