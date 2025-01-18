@@ -123,7 +123,7 @@
   }
   
   .showMore:hover:before{
-  animation: btnAnimation .7s linear infinite;
+  animation: btnAnimation 1.3s linear infinite;
   }
 
    @keyframes btnAnimation {
