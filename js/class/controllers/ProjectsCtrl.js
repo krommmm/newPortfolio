@@ -5,6 +5,7 @@ export class ProjectsCtrl {
     }
 
     init() { 
+        this.displayProjects();
         this.bindEvents();
     }
 
@@ -21,6 +22,10 @@ export class ProjectsCtrl {
     displayMoreProjects() {
      this.urlPages.displayMoreProjects();
      this.urlPages.toggleShowMore();
+    }
+
+    displayProjects(){
+        this.urlPages.displayProjects();
     }
 
 
