@@ -16,11 +16,29 @@
 
 @media screen and (max-width: 540px) {
     html .projects__presentation__container__project--name {
-        display: none;
+        /* display: none; */
+    }
+
+    html .projects__presentation__container__project>div {
+        display: flex;
+        align-items: start;
+        flex-direction: column-reverse;
     }
 
     html .projects__presentation__container__project {
-        justify-content: center;
+        justify-content: start;
+    }
+
+    html .projects__presentation__container__project--img img {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 394px) {
+    html .projects__presentation__container__project--img img {
+        width: 229px;
+        height: 159px;
     }
 }
 
