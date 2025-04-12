@@ -217,6 +217,10 @@
     padding-left: 5px;
 }
 
+.project-focus__main__functionalities {
+    padding: 10px;
+}
+
 @keyframes btnAnimation {
     0% {
         transform: translateX(-100px) rotate(-45deg);
