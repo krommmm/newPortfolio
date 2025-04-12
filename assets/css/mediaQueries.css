@@ -14,6 +14,33 @@
     }
 }
 
+@media screen and (max-width: 732px) {
+    html .project-focus__head__right img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    html .project-focus__main__functionalities li {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    html .rectangle-small {
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 482px) {
+    html .project-focus__head {
+        width: 254px;
+    }
+}
+
+
+
 @media screen and (max-width: 540px) {
     html .projects__presentation__container__project--name {
         /* display: none; */
