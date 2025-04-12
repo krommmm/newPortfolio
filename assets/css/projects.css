@@ -36,7 +36,7 @@
     margin: 5px;
 }
 
-.projects__presentation__container__project a{
+.projects__presentation__container__project a {
     margin-right: 30px;
 }
 
@@ -160,11 +160,60 @@
     border: 6px double white;
     margin-right: 6px;
 }
-.circle-green{
+
+.circle-green {
     background-color: rgb(34, 130, 64);
 }
-.circle-red{
+
+.circle-red {
     background-color: rgb(228, 43, 43);
+}
+
+.projectFocusImg {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.project-focus__head__right img {
+    width: 264px;
+    height: 165px;
+    border-radius: 5px;
+    border: 1px solid rgba(22, 24, 26, 0.05);
+}
+
+.project-focus__head div {
+    display: flex;
+    margin-right: 15px;
+}
+
+.project-focus__head__left {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-focus__head__left--title {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.project-focus__head__left--description {
+    margin-bottom: 15px;
+}
+
+.project-focus__main__head p {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+    padding: 11px 0px;
+}
+
+.project-focus__main__functionalities li {
+    list-style-type: disclosure-closed;
+    margin: 5px 0px;
+    padding-left: 5px;
 }
 
 @keyframes btnAnimation {

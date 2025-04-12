@@ -1,6 +1,7 @@
 import { ContactCtrl } from "./class/controllers/ContactCtrl.js";
 import { HomeCtrl } from "./class/controllers/HomeCtrl.js";
 import { ProjectsCtrl } from "./class/controllers/ProjectsCtrl.js";
+import { ProjectFocusCtrl } from "./class/controllers/ProjectFocusCtrl.js";
 import { CopyInfos } from "./class/ui/CopyInfos.js";
 import { DarkMode } from "./class/ui/DarkMode.js";
 import { UrlPages } from "./class/ui/UrlPages.js";
@@ -14,6 +15,7 @@ const debouncer = new Debouncer(300);
 new ContactCtrl(copyInfos,debouncer);
 new HomeCtrl(darkMode, urlPages);
 new ProjectsCtrl(urlPages);
+new ProjectFocusCtrl(urlPages);
 
 
 const href = window.location.href;
