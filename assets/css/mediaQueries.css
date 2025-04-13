@@ -33,9 +33,9 @@
 }
 
 
-@media screen and (max-width: 482px) {
-    html .project-focus__head {
-        width: 254px;
+@media screen and (max-width: 524px) {
+    html .rectangle-small {
+        margin: 30px auto;
     }
 }
 
