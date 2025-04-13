@@ -37,6 +37,19 @@
     html .rectangle-small {
         margin: 30px auto;
     }
+    html .project-focus__head div{
+        margin: 12px 0px;
+    }
+
+    html .project-focus__head__btns {
+        display: flex;
+        flex-direction: column;
+        margin-top:15px;
+    }
+
+    html .project-focus__head__btns a {
+        text-align: center;
+    }
 }
 
 
