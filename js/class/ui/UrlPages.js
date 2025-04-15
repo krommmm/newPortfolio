@@ -135,7 +135,7 @@ export class UrlPages extends IUrlPages {
 
         const btns = document.querySelector(".project-focus__head__btns");
         const github = document.createElement("a");
-        github.textContent = "github";
+        github.innerHTML = `<i class="fa-brands fa-github"></i> Github`;
         github.className = "btn btn-grey";
         github.href = project.github_url;
         btns.appendChild(github);
@@ -144,7 +144,8 @@ export class UrlPages extends IUrlPages {
             const site = document.createElement("a");
             site.className = "btn btn-grey";
             site.href = project.site_url;
-            site.textContent = "site";
+            site.innerHTML =`<i class="fa-solid fa-globe"></i> Site`;
+
             btns.appendChild(site);
         };
 
