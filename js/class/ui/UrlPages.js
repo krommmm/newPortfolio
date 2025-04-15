@@ -149,10 +149,13 @@ export class UrlPages extends IUrlPages {
         };
 
         const funcContainer = document.querySelector(".project-focus__main__functionalities ul");
+        let liToggle = false;
         project.fonctionalities.forEach((functionnality) => {
             const li = document.createElement("li");
+            if(liToggle) li.className="grisClair";
             li.textContent = functionnality;
             funcContainer.appendChild(li);
+            liToggle = !liToggle;
         });
 
         const slideContainer = document.querySelector(".focus__footer__pictures__slideContainer");

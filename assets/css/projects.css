@@ -173,17 +173,7 @@
     display: flex;
 }
 
-.focus__footer__head p {
-    border-bottom:
-        1px solid rgba(0, 0, 0, .3);
-    padding:
-        11px 0px;
-
-    font-size: 20px;
-    margin-bottom: 10px;
-    color: rgb(34, 130, 64);
-    font-weight: 600;
-}
+.focus__footer__head p {}
 
 
 .projectFocusImg {
@@ -204,57 +194,44 @@
     margin-right: 15px;
 }
 
+.project-focus__head__between {
+    display: flex;
+    justify-content: space-between;
+}
+
 .project-focus__head__left {
     display: flex;
     flex-direction: column;
 }
 
-.project-focus__head__left--title {
-    color: black;
-    font-size: 20px;
-    margin-bottom: 10px;
-    color: rgb(34, 130, 64);
-    font-weight: 600;
-}
+
 
 .project-focus__head__left--description {
     margin-bottom: 15px;
     font-size: 13px;
+    background-color: rgb(190, 249, 198);
+    padding:
+        3px;
+    border-radius:
+        3px;
 }
 
-.project-focus__main__head p {
-    color: black;
-    font-size: 20px;
-    margin-bottom: 10px;
-    border-bottom: 1px solid rgba(0, 0, 0, .3);
-    padding: 11px 0px;
-    font-size: 14px;
-    font-size: 20px;
-    margin-bottom: 10px;
-    color: rgb(34, 130, 64);
-    font-weight: 600;
-}
+.project-focus__main__head p {}
 
 .project-focus__main__functionalities li {
     list-style-type: none;
     margin: 5px 0px;
     padding-left: 5px;
-    margin-left: 10px;
-    background-color: rgba(215, 215, 215, 0.1);
+    padding: 12px;
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+.project-focus ul{
     border: 1px solid rgba(0,0,0,.1);
-    border-radius:3px;
-    padding: 5px;
-    margin-bottom:5px;
-    font-size:13px;
 }
 
 .project-focus__main__functionalities {
-    padding: 10px;
-    border-radius:
-        5px;
-    padding:
-        15px;
-    border: 1px solid rgba(0, 0, 0, .1);
+
 }
 
 /* carouselle */
@@ -267,7 +244,7 @@
 
 .focus__footer__pictures__slideContainer {
     display: flex;
-    transition-duration:400ms;
+    transition-duration: 400ms;
 }
 
 .focus__footer__pictures__slideContainer img {
@@ -286,7 +263,7 @@
 .carrouselleLeft:hover,
 .carrouselleRight:hover {
     background-color: rgba(211, 211, 211, 0.1);
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .carrouselleLeft {

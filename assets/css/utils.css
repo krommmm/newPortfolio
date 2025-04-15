@@ -114,3 +114,15 @@
     font-weight: 600;
     color: black;
 }
+
+.focus-title{
+    color: rgb(53,58,62);
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    border-bottom:1px solid rgba(0,0,0,.1);
+    padding-bottom:10px;
+}
+.grisClair{
+    background-color: rgb(242, 242, 242);
+}
