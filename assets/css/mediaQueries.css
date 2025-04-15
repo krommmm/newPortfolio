@@ -77,6 +77,11 @@
     html .project-focus__head__btns a {
         text-align: center;
     }
+    html .projects__presentation__container__project {
+        display: flex;
+        justify-content: space-between;
+        margin: 28px 0px;
+    }
 }
 
 
