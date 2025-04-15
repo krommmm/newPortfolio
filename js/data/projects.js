@@ -38,7 +38,7 @@ export const projects = [
             "Architecture modulaire et composants réutilisables",
             "Api restfull"
         ],
-        github_img: ["msn_1.png", "msn_2.png", "msn_3.png"]
+        github_img: ["msn_1.png", "msn_2.png", "msn_3.png", "msn_4.png", "msn_5.png"]
     },
     {
         id: 3,
