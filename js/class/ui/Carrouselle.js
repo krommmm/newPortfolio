@@ -9,6 +9,7 @@ export class Carrouselle {
 
     init() {
         // Attendre que urlPages créé le dom
+        if(!this.carrouselle) return;
         setTimeout(() => {
             const clone = this.carrouselle.firstElementChild.cloneNode(true);
             this.carrouselle.appendChild(clone);

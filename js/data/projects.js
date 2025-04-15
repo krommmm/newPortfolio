@@ -38,7 +38,8 @@ export const projects = [
             "Recherche et trie (SQL)",
             "Architecture modulaire et composants réutilisables",
             "Api restfull"
-        ]
+        ],
+        github_img: ["msn_1.png", "msn_2.png", "msn_3.png"]
     },
     {
         id: 3,
@@ -59,7 +60,8 @@ export const projects = [
             "Soldes temporaires sur un ensemble d'articles",
             "Execution automatique de tâches (Cron)",
             "Api restfull"
-        ]
+        ],
+        github_img: ["trend_1.png", "trend_2.png", "trend_3.png", "trend_4.png", "trend_5.png", "trend_6.png", "trend_7.png", "trend_8.png"]
     },
     {
         id: 4,
@@ -79,7 +81,8 @@ export const projects = [
             "Agenda",
             "Opérations CRUD",
             "Etat centralisé dans l'api du navigateur (localStorage)"
-        ]
+        ],
+         github_img: ["revi_0.png", "revi_1.png", "revi_2.png", "revi_3.png"]
     },
     {
         id: 5,
@@ -110,7 +113,8 @@ export const projects = [
             "Possibilité de classer les tâches par priorité.",
             "Interface utilisateur intuitive et facile à utiliser.",
             "Synchronisation des données avec un backend Node.js et MongoDB."
-        ]
+        ],
+        github_img: ["todo_1.png", "todo_2.png", "todo_3.png"]
     },
     {
         id: 7,
@@ -130,6 +134,7 @@ export const projects = [
             "Gestion des favoris pour les utilisateurs.",
             "Architecture modulaire et composants réutilisables.",
             "API RESTful."
-        ]
+        ],
+        github_img: ["tri_1.png", "tri_2.png", "tri_3.png", "tri_4.png", "tri_5.png"]
     }
 ];
