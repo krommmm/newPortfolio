@@ -34,7 +34,6 @@ export const projects = [
             "Chat (socket.io)",
             "Service de messagerie avec plusieurs états de messagerie (socket.io)",
             "Authentification (token et cookie http only)",
-            "Etat centralisé (context)",
             "Recherche et trie (SQL)",
             "Architecture modulaire et composants réutilisables",
             "Api restfull"
@@ -112,7 +111,7 @@ export const projects = [
             "Intégration d'un calendrier pour visualiser les tâches planifiées.",
             "Possibilité de classer les tâches par priorité.",
             "Interface utilisateur intuitive et facile à utiliser.",
-            "Synchronisation des données avec un backend Node.js et MongoDB."
+            "Gestion centralisé par l'api du navigateur"
         ],
         github_img: ["todo_1.png", "todo_2.png", "todo_3.png"]
     },
@@ -121,18 +120,16 @@ export const projects = [
         name: "Trieuse de films",
         description: "Application pour organiser et trier des films selon divers critères.",
         img: "netflix.jpg",
-        techno_logos: ["react_logo.png", "nodejs_logo.png", "mongodb_logo.png"],
+        techno_logos: ["js.png", "nodejs_logo.png", "mongodb_logo.png"],
         isOnline: false,
         github_url: "https://github.com/krommmm/app_creation_fiches_cine",
         site_url: null,
         fonctionalities: [
             "Application qui utilise React (vite), Node.js (Express) et MySQL.",
             "Tri des films par genre, année, et popularité.",
-            "Pagination dynamique pour afficher les résultats.",
             "Recherche avancée avec filtres SQL.",
-            "Authentification sécurisée (token et cookie HTTP only).",
+            "Authentification par token.",
             "Gestion des favoris pour les utilisateurs.",
-            "Architecture modulaire et composants réutilisables.",
             "API RESTful."
         ],
         github_img: ["tri_1.png", "tri_2.png", "tri_3.png", "tri_4.png", "tri_5.png"]
