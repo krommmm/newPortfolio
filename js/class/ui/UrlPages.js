@@ -131,7 +131,7 @@ export class UrlPages extends IUrlPages {
         });
 
         const imgProject = document.querySelector(".project-focus__head__right img");
-        imgProject.src=`../assets/pictures/projets/${project.img}`;
+        imgProject.src = `../assets/pictures/projets/${project.img}`;
 
         const btns = document.querySelector(".project-focus__head__btns");
         const github = document.createElement("a");
@@ -155,7 +155,13 @@ export class UrlPages extends IUrlPages {
             funcContainer.appendChild(li);
         });
 
-
+        const slideContainer = document.querySelector(".focus__footer__pictures__slideContainer");
+        console.log(project.github)
+        project.github_img.forEach((imgG) => {
+            const slide = document.createElement("img");
+            slide.src =`../assets/pictures/github/${imgG}`;
+            slideContainer.appendChild(slide);
+        });
     }
 
 }

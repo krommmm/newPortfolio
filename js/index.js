@@ -6,16 +6,18 @@ import { CopyInfos } from "./class/ui/CopyInfos.js";
 import { DarkMode } from "./class/ui/DarkMode.js";
 import { UrlPages } from "./class/ui/UrlPages.js";
 import { Debouncer} from "./class/models/Debouncer.js";
+import { Carrouselle } from "./class/ui/Carrouselle.js";
 
 const copyInfos = new CopyInfos();
 const darkMode = new DarkMode();
 const urlPages = new UrlPages();
 const debouncer = new Debouncer(300);
+const carousselle = new Carrouselle();
 
 new ContactCtrl(copyInfos,debouncer);
 new HomeCtrl(darkMode, urlPages);
 new ProjectsCtrl(urlPages);
-new ProjectFocusCtrl(urlPages);
+new ProjectFocusCtrl(urlPages,carousselle);
 
 
 const href = window.location.href;

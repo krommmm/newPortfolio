@@ -1,10 +1,11 @@
-export class ProjectFocusCtrl{
-    constructor(urlPages) {
+export class ProjectFocusCtrl {
+    constructor(urlPages, carousselle) {
         this.urlPages = urlPages;
+        this.carousselle = carousselle;
         this.init();
     }
 
-    init() { 
+    init() {
         this.displayProject();
         this.bindEvents();
     }
@@ -13,9 +14,11 @@ export class ProjectFocusCtrl{
         document.addEventListener("click", this.handleClicks.bind(this));
     }
 
-    handleClicks(e) { 
-        if (e.target.classList.contains("showMore")) { 
-            // this.displayMoreProjects();  
+    handleClicks(e) {
+        if (e.target.classList.contains("carrouselleLeft")) {
+            this.carousselle.turnLeft();
+        } else if (e.target.classList.contains("carrouselleRight")) {
+            this.carousselle.turnRight();
         }
     }
 
@@ -23,7 +26,7 @@ export class ProjectFocusCtrl{
         this.urlPages.displayProject();
     }
 
- 
+
 
 
 }

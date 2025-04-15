@@ -17,7 +17,8 @@ export const projects = [
             "Recherche et trie (SQL)",
             "Architecture modulaire et composants réutilisables",
             "Api restfull"
-        ]
+        ],
+        github_img: ["cuisine_1.png", "cuisine_2.png", "cuisine_3.png"]
     },
     {
         id: 2,

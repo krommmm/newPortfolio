@@ -8,6 +8,12 @@
     }
 }
 
+@media screen and (max-width: 1350px) {
+    html .project-large {
+        flex-direction: column-reverse;
+    }
+}
+
 @media screen and (max-width: 762px) {
     html .projects__presentation__container__project--technos {
         display: none;
@@ -26,6 +32,23 @@
     }
 }
 
+@media screen and (max-width: 480px) {
+    html .focus__footer__pictures__frame {
+        width: 95%;
+    }
+
+    html .project-large {
+        flex-direction: column-reverse;
+        width: 100vw;
+    }
+    html .focus__footer__pictures__slideContainer img{
+        width: 100%;
+    }
+    html .focus__footer__pictures__slideContainer{
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 470px) {
     html .rectangle-small {
         width: 80%;
@@ -37,14 +60,15 @@
     html .rectangle-small {
         margin: 30px auto;
     }
-    html .project-focus__head div{
+
+    html .project-focus__head div {
         margin: 12px 0px;
     }
 
     html .project-focus__head__btns {
         display: flex;
         flex-direction: column;
-        margin-top:15px;
+        margin-top: 15px;
     }
 
     html .project-focus__head__btns a {
